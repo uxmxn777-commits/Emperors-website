@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAYRO | Discover Your Signature Scent</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #faf8f4;
+      color: #222;
+    }
+
+    header {
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #111;
+      color: white;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 4px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 15px;
+    }
+
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #f5eee4, #e8dfd1);
+    }
+
+    .hero-content {
+      max-width: 800px;
+    }
+
+    .hero h1 {
+      font-size: 58px;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+
+    .hero h2 {
+      font-size: 25px;
+      margin-bottom: 20px;
+      font-weight: normal;
+    }
+
+    .hero p {
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      background: #111;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 70px 8%;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 34px;
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      width: 280px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      font-size: 21px;
+    }
+
+    .card p {
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .about {
+      background: #111;
+      color: white;
+    }
+
+    .about p {
+      max-width: 750px;
+      margin: auto;
+      line-height: 1.8;
+      font-size: 17px;
+    }
+
+    .price {
+      margin-top: 15px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #080808;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 42px;
+      }
+
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">VAYRO</div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>VAYRO</h1>
+
+      <h2>Discover Your Signature Scent ✨</h2>
+
+      <p>
+        Find fragrances that match your personality, style,
+        preferences and budget. VAYRO makes perfume discovery
+        simple, affordable and personal.
+      </p>
+
+      <a href="#features" class="btn">Explore VAYRO</a>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Why VAYRO?</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Personalized</h3>
+        <p>
+          Discover fragrances based on your preferences,
+          personality and style.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Affordable</h3>
+        <p>
+          Explore quality fragrance options designed
+          for young customers and their budgets.
+        </p>
+        <div class="price">From ₹500</div>
+      </div>
+
+      <div class="card">
+        <h3>Easy Discovery</h3>
+        <p>
+          Compare different fragrance options and
+          make your perfume choice with confidence.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About VAYRO</h2>
+
+    <p>
+      VAYRO is a fragrance discovery venture focused on
+      helping young customers find perfumes that feel like
+      them. Our goal is to make choosing a fragrance easier,
+      more personal and more enjoyable.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Find Your Fragrance</h2>
+
+    <p style="margin-bottom:25px;">
+      Ready to discover a scent that feels like you?
+    </p>
+
+    <a href="mailto:vayro@example.com" class="btn">
+      Contact VAYRO
+    </a>
+  </section>
+
+  <footer>
+    © 2026 VAYRO | Discover Your Signature Scent
+  </footer>
+
+</body>
+</html>
